@@ -1,3 +1,27 @@
+macro_next_selection: macro_next_selection{
+compatible = "zmk,behavior-macro";
+label = "macro_next_selection";
+#binding-cells = <0>;
+bindings = <&kp LA(LS(RIGHT))>;
+};
+macro_prev_selection: macro_prev_selection{
+compatible = "zmk,behavior-macro";
+label = "macro_prev_selection";
+#binding-cells = <0>;
+bindings = <&kp LA(LS(LEFT))>;
+};
+macro_copy: macro_copy{
+compatible = "zmk,behavior-macro";
+label = "macro_copy";
+#binding-cells = <0>;
+bindings = <&kp LG(C)>;
+};
+macro_paste: macro_paste{
+compatible = "zmk,behavior-macro";
+label = "macro_paste";
+#binding-cells = <0>;
+bindings = <&kp LG(V)>;
+};
 macro_next_desktop: macro_next_desktop{
 compatible = "zmk,behavior-macro";
 label = "macro_next_desktop";
