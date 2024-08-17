@@ -2,7 +2,7 @@ macro_translate: macro_translate{
 compatible = "zmk,behavior-macro";
 label = "macro_translate";
 #binding-cells = <0>;
-bindings = <&kp LG(C)>, <&kp LA(SPACE)>, <&kp LG(LS(E))>, <&kp LS(T)>, <&kp R>, <&kp A>, <&kp N>, <&kp S>, <&kp L>, <&kp A>, <&kp T>, <&kp E>, <&kp SPACE>, <&kp T>, <&kp O>, <&kp SPACE>, <&kp U>, <&kp K>, <&kp R>, <&kp A>, <&kp I>, <&kp N>, <&kp I>, <&kp A>, <&kp N>, <&kp LS(SEMI)>, <&kp LS(ENTER)>, <&kp LG(V)>, <&kp ENTER>;
+bindings = <&kp LG(LS(LA(LC(T))))>;
 };
 macro_switch_lang: macro_switch_lang{
 compatible = "zmk,behavior-macro";
