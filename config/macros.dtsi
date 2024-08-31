@@ -1,3 +1,9 @@
+macro_macro_option_5: macro_macro_option_5{
+compatible = "zmk,behavior-macro";
+label = "macro_macro_option_5";
+#binding-cells = <0>;
+bindings = <&kp LALT>, <&kp LALT>, <&kp LALT>, <&kp LALT>, <&kp LALT>, <&tog 1>;
+};
 macro_change_lang: macro_change_lang{
 compatible = "zmk,behavior-macro";
 label = "macro_change_lang";
